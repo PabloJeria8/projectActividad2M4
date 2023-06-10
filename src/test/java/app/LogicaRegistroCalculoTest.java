@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNotEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-public class LogicaRegistroTest_Calculo {
+public class LogicaRegistroCalculoTest {
 	
 	private LogicaRegistro logicaRegistro;
 	private Persona persona1;

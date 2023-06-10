@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({LogicaRegistroTest_Calculo.class, LogicaRegistroTest.class })
+@SuiteClasses({LogicaRegistroCalculoTest.class, LogicaRegistroTest.class })
 public class SuiteTest {
 
 
