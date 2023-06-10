@@ -13,16 +13,16 @@ pipeline {
         stage('Test') {
             steps {
             	echo 'Ejecutando los tests '
-            	sh 'mvn test'      
+            	sh 'mvn test'
 				echo 'Finalizado los tests '
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Desplegando el area de desarrollo'
-                sh 'mvn install' 
+                sh 'mvn install'
             }
         }
-    } 
+    }
 }
  
